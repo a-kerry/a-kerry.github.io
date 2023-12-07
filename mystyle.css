@@ -15,7 +15,9 @@
     text-decoration: none;
     padding: 12px;
     display: block;
-    text-align: center;
+    text-align: left;
+    font-size:18px;
+  
 
     
 }
@@ -25,11 +27,11 @@
 
 
 
-
-
 .navbar li{
     float: left;
 }
+
+
 
 
 html, body {
@@ -76,7 +78,18 @@ p {
 
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:hover {
+  color: lightgreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a { color: white; } 
 
 
 
@@ -85,6 +98,14 @@ li{color: whitesmoke;
 padding-left: 5px;
 }
 
+
+table, th, td {
+  border:1px solid white; 
+    font-family: Arial;
+    color: whitesmoke;
+    padding-left: 5px;
+    background-color: black;
+}
 
 ul{color: whitesmoke;
     font-family: Arial;
